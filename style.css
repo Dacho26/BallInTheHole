@@ -1,0 +1,36 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: blue;
+}
+
+#area {
+    height: 90%;
+    position: relative;
+    margin: 50px;
+    background-color: red;
+}
+
+.ball {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#area .hole1,
+#area .hole2,
+#area .hole3,
+#area .hole4 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border-radius: 50%;
+}
