@@ -27,10 +27,49 @@ html {
 #area .hole1,
 #area .hole2,
 #area .hole3,
-#area .hole4 {
+#area .hole4,
+#area .hole5,
+#area .hole6,
+#area .hole7,
+#area .hole8 {
     position: absolute;
     width: 80px;
     height: 80px;
     background-color: black;
     border-radius: 50%;
+}
+
+.hole2 {
+    bottom: 40%;
+    right: 60%;
+}
+
+.hole3 {
+    bottom: 10%;
+    right: 50%;
+}
+
+.hole4 {
+    bottom: 80%;
+    right: 70%;
+}
+
+.hole5 {
+    bottom: 0;
+    right: 0;
+}
+
+.hole6 {
+    bottom: 0;
+
+}
+
+.hole7 {
+    bottom: 70%;
+    right: 10%;
+}
+
+.hole8 {
+    bottom: 40%;
+    right: 20%;
 }
