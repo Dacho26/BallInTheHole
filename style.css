@@ -75,3 +75,20 @@ html {
     bottom: 40%;
     right: 20%;
 }
+
+.time {
+    position: absolute;
+    width: 100vw;
+    top: 90%;
+    left: 0;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.time a {
+    text-decoration: none;
+
+}
